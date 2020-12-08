@@ -48,20 +48,35 @@ Dalla seconda in poi, la compilazione è incrementale e i tempi sono molto più 
 La struttura vista in precedenza viene aggiornata con numerose directory, la più importante delle quali, ai fini dell’esecuzione dell’applicazione è target, dove risiede il jar da mandare in esecuzione.
 App
 ├── build.sbt
+
 ├── project
+
 │   ├── build.properties
+
 │   └── target
+
 │       ├── config-classes
+
 │       ├── scala-2.12
+
 │       └── streams
+
 ├── src
+
 │   └── main
+
 │      └── scala
+
 │	        └── NoshowsApp.scala
+
 └── target
+
     ├── global-logging
+    
     ├── scala-2.12
+    
                 ├── classes
+                
                 └── noshows-project_2.12-1.0.jar
                 
               
