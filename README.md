@@ -6,10 +6,15 @@ COMPILAZIONE
 
 Per compilare correttamente il file occorre avere una struttura di directory del codice sorgente organizzata come mostrato:
 App
+
 ├── build.sbt
+
 └── src
+
     └──main
+    
         └──scala
+        
             └──NoshowsApp.scala
 
 La compilazione avviene dall’interno delle directory App.
