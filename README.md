@@ -51,23 +51,22 @@ App
 
 ├── project
 
-│   ├── build.properties
+    └── build.properties
 
-│   └── target
+    └── target
 
-│       ├── config-classes
+       ├── config-classes
 
-│       ├── scala-2.12
+       ├── scala-2.12
 
-│       └── streams
-
+       └── streams
 ├── src
 
-│   └── main
+       └── main
 
-│      └── scala
+       └── scala
 
-│	        └── NoshowsApp.scala
+	        └── NoshowsApp.scala
 
 └── target
 
